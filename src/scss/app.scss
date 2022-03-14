@@ -14,17 +14,20 @@ body {
   background-size: cover;
   font-size: 16px;
   color: white;
-  height: calc(100vh - calc(100vh - 100%));
+  //position: fixed;
+  //top: 0;
+  //bottom: 0;
+  height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-//@media screen and (max-width: 415px) {
-//  body {
-//    height: 100%;
-//  }
-//}
+@media screen and (max-width: 415px) {
+  body {
+    height: 100%;
+  }
+}
 
 header {
   padding: 1rem;
