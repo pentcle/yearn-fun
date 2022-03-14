@@ -1,3 +1,19 @@
 footer {
-  margin: 2rem 0;
+  position: fixed;
+  bottom: 0;
+  font-size: .9rem;
+  width: 100%;
+  padding: 2rem 0;
+  color: white;
+  text-align: center;
+
+  a {
+    margin-left: 2rem;
+    color: #0657F9;
+    font-weight: 500;
+    text-decoration: none;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
 }
