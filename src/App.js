@@ -22,11 +22,8 @@ function App() {
         <main>
             <article className={"vertical-center-container"}>
                 <p className={"text-large vertical-center"}>
-                    {/*{dateState.toLocaleString('en-US', {*/}
-                    {/*    hour: 'numeric', minute: 'numeric', hour12: false,*/}
-                    {/*})}*/}
-                    {addZero(dateState.getUTCHours({hour: 'numeric'}))}:
-                    {addZero(dateState.getUTCMinutes({minute: 'numeric'}))}
+                    {addZero(dateState.getUTCHours())}:
+                    {addZero(dateState.getUTCMinutes())}
                 </p>
             </article>
         </main>
