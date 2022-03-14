@@ -1,2 +1,4 @@
-the blue pill
 
+$ yarn install
+
+$ yarn start

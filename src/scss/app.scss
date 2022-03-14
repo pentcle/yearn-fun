@@ -11,14 +11,19 @@
 }
 
 .logo {
-  width: 10rem;
   text-align: left;
+  width: 300px;
 }
 
 body {
-  background-color: rgb(32, 31, 35);
+  background-color: #E8E8E8;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   font-size: 16px;
   color: white;
+  height: 100vh;
 }
 
 header {
