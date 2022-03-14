@@ -15,15 +15,16 @@ body {
   font-size: 16px;
   color: white;
   height: 100vh;
+  max-height: -webkit-fill-available;
   width: 100%;
   margin: 0;
 }
 
-@media screen and (max-width: 415px) {
-  body {
-    height: 100%;
-  }
-}
+//@media screen and (max-width: 415px) {
+//  body {
+//    height: 100%;
+//  }
+//}
 
 header {
   padding: 1rem;
