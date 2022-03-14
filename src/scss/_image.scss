@@ -1,10 +1,10 @@
-img {
+img1 {
   width: 100%;
   margin: .35rem 0;
 }
 
 @media screen and (min-width: _breakpoint(step-one)) {
-  img {
+  img1 {
     max-width: 35rem;
     margin: 1rem;
   }

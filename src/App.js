@@ -10,9 +10,9 @@ function App() {
     }, []);
 
     return (<div className="App">
-        <header className="align-left">
+        <header>
             <a href={"https://yearn.finance"} target={"_blank"}
-               rel="noopener noreferrer"><img src={logo} className={"logo"} alt="logo"/></a>
+               rel="noopener noreferrer"><img src={logo} alt="logo"/></a>
         </header>
         <main>
             <article className={"vertical-center-container"}>
