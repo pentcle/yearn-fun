@@ -9,6 +9,11 @@ function App() {
         setInterval(() => setDateState(new Date()), 30000);
     }, []);
 
+    function addZero(i) {
+        if (i < 10) {i = "0" + i}
+        return i;
+    }
+
     return (<div className="App">
         <header>
             <a href={"https://yearn.finance"} target={"_blank"}
@@ -20,8 +25,8 @@ function App() {
                     {/*{dateState.toLocaleString('en-US', {*/}
                     {/*    hour: 'numeric', minute: 'numeric', hour12: false,*/}
                     {/*})}*/}
-                    {dateState.getUTCHours({hour: 'numeric'})}:
-                    {dateState.getUTCMinutes({minute: 'numeric'})}
+                    {addZero(dateState.getUTCHours({hour: 'numeric'}))}:
+                    {addZero(dateState.getUTCMinutes({minute: 'numeric'}))}
                 </p>
             </article>
         </main>
