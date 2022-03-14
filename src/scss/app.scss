@@ -26,6 +26,10 @@ body {
 @media screen and (max-width: 415px) {
   body {
     height: 100%;
+    position:fixed;
+    top:0;
+    bottom:0;
+    background-attachment: fixed;
   }
 }
 
@@ -34,6 +38,8 @@ header {
   height: 2rem;
   box-sizing: border-box;
   text-align: left;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .vertical-center-container {
