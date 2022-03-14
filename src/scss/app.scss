@@ -19,7 +19,7 @@ body {
   margin: 0;
 }
 
-@media screen and (min-width: _breakpoint(step-one)) {
+@media screen and (max-width: 415px) {
   body {
     height: 100%;
   }
