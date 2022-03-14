@@ -6,10 +6,6 @@
 @import "main";
 @import "markup";
 
-.App {
-  text-align: center;
-}
-
 .logo {
   text-align: left;
   width: 300px;
@@ -24,11 +20,15 @@ body {
   font-size: 16px;
   color: white;
   height: 100vh;
-  min-width: 500px;
+  width: 100%;
+  min-width: 420px;
+  margin: 0;
 }
 
 header {
   padding: 1rem;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .App-link {
@@ -49,10 +49,6 @@ header {
   align-items: center;
   height: 80vh;
   justify-content: center;
-}
-
-.vertical-center {
-  flex: 1;
 }
 
 .text-large {
