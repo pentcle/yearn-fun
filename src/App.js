@@ -9,6 +9,8 @@ function App() {
         setInterval(() => setDateState(new Date()), 30000);
     }, []);
 
+    const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
     function addZero(i) {
         if (i < 10) {i = "0" + i}
         return i;
@@ -25,6 +27,7 @@ function App() {
                     {addZero(dateState.getUTCHours())}:
                     {addZero(dateState.getUTCMinutes())}
                 </p>
+                <p>{weekday[dateState.getUTCDay()]}</p>
             </article>
         </main>
         <footer>
