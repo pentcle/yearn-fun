@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import '../scss/app.scss';
 import Header from "../components/Header";
 import Layout from "../components/Layout";
+import logo from "../images/yearntime.svg";
 
 export function Time() {
 
@@ -20,7 +21,7 @@ export function Time() {
     }
 
     return (<Layout>
-        <Header/>
+        <Header>{logo}</Header>
         <main>
             <article className={"vertical-center-container"}>
                 <p className={"text-large vertical-center"}>

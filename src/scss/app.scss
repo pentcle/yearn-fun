@@ -44,6 +44,7 @@ header {
   align-items: center;
   height: calc(100vh - 4rem);
   justify-content: center;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 415px) {
@@ -60,6 +61,8 @@ header {
 .text-large {
   font-size: 6rem;
   font-weight: 600;
+  margin: 0;
+  padding: 0;
 }
 
 .yearn-blue {
@@ -72,4 +75,15 @@ header {
 
 .blue-pill-black {
   color: rgb(32, 31, 35);
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+p, a {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
 }
