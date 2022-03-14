@@ -49,6 +49,17 @@ header {
   justify-content: center;
 }
 
+@media screen and (max-width: 415px) {
+  .vertical-center-container {
+    height: calc(100% - 4rem);
+    position:fixed;
+    top:0;
+    bottom:0;
+    text-align:center;
+    width: 100%;
+  }
+}
+
 .text-large {
   font-size: 6rem;
   font-weight: 600;
