@@ -88,3 +88,22 @@ p, a {
   padding: 0;
   text-transform: lowercase;
 }
+
+.icon-link {
+  span {display: none}
+  svg {
+    background-color: white;
+    background-clip: padding-box;
+    border-radius: 50%;
+    outline: 1px solid #0657F9;
+    outline-offset: -1px;
+  }
+}
+
+.text-white {
+  color: white;
+}
+
+.text-transparent {
+  color: transparent;
+}
