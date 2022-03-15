@@ -100,6 +100,18 @@ p, a {
   }
 }
 
+@media screen and (max-width: 415px) {
+  .icon-link {
+    svg {
+      background-color: unset;
+      background-clip: unset;
+      border-radius: unset;
+      outline: unset;
+      outline-offset: unset;
+    }
+  }
+}
+
 .text-white {
   color: white;
 }
